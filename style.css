@@ -1,0 +1,110 @@
+
+  
+body {
+
+    background-image: url(digital-painting-mountain-with-colorful-tree-foreground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+
+}
+
+p{
+    position: relative;
+    color:floralwhite;
+    font-size: 20px;
+    font-family: 'Comic Neue', cursive;
+    left: 5px;
+    
+}
+.topHeader {
+    font-size: 30px;
+    position: relative;
+    left: 10px;
+    /* bottom: 20px; */
+    
+    font-family: 'Comic Neue', cursive;
+}
+
+
+.formBox {
+    display: flex;
+    position: relative;
+    padding: 80px;
+    /* padding-top: 100px; */
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    justify-content: center;
+    border:2px solid black;
+    border-radius:20px;
+    backdrop-filter: blur(3px);
+}
+
+.forgot a {
+    font-weight: 300;
+    color:bisque;
+    font-family: 'Comic Neue', cursive;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    transition: all ease 0.2s;
+}
+
+#FUser:hover{
+    scale: 1.05;
+    
+}
+#FPass:hover{
+    scale:1.05;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+}
+.inputText {
+    height: 40px;
+    width: 200px;
+    border: 0.1px solid black;
+    outline: none;
+    border-radius:30px;
+    padding:0 0 0 20px;
+    opacity: 90%;
+    color: black;
+    font-family: 'Comic Neue', cursive;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(49,48,48);
+}
+
+#submitButton{
+    height: 39px;
+    width: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 20%;
+    border: 0.1px solid black;
+    outline: none;
+    border-radius:30px;
+    padding:0 0 0 20px;
+    font-family: 'Comic Neue', cursive;
+    transition:0.2s ease;
+
+
+}
+
+#submitButton:hover{
+    box-shadow: 5px 5px 5px white;
+    scale: 1.1;
+    
+}
+
